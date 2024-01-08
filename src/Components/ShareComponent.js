@@ -32,7 +32,7 @@ const ShareComponent = () => {
               “Humans have a need to be highly consistent with their past
               pronouncements.”
             </p>
-            <h4  style={{ marginTop: "-1rem" }}>~ Naval Ravikant</h4>
+            <h4  style={{fontSize:'14px' }}>~ <span style={{textDecoration:'underline'}}>Naval Ravikant</span></h4>
           </div>
         </Grid>
         <Grid
@@ -50,7 +50,7 @@ const ShareComponent = () => {
             src="Group 10.png"
             alt="group7"
             style={{
-              maxHeight: "400px",
+            //   maxHeight: "400px",
               maxWidth: "400px",
               alignContent: "center",
               width: "100%",

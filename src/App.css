@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(3, 3, 4);
+  background-color: #0E0E0E;
   color:white;
   font-family: 'Poppins', sans-serif
 }
@@ -13,3 +13,13 @@ body{
   
   }
 }
+
+/* @media (min-width:801px){ */
+  .folksable{
+    /* padding:'0px 0px 0px 0px' */
+    /* max-width:'1px'!important; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }

@@ -21,7 +21,7 @@ const GoalComponent = () => {
             src="Group 9.png"
             alt="group7"
             style={{
-              maxHeight: "400px",
+            //   maxHeight: "400px",
               maxWidth: "400px",
               alignContent: "center",
               width: "100%",
@@ -55,8 +55,9 @@ const GoalComponent = () => {
             </h2>
             <p>
               “The body should be treated rigorously, that it may not be
-              disobedient to the mind.” ~ Seneca
+              disobedient to the mind.” 
             </p>
+            <h5 style={{fontWeight:'bolder', marginTop:'0rem'}}>~ <span style={{textDecoration:'underline'}}>Seneca</span> </h5>
           </div>
         </Grid>
       </Grid>

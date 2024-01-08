@@ -32,7 +32,7 @@ const ProgressComponent = () => {
             “Share Photo Check in to your Daily Events and 
 maintain your streak for accountability.”
             </p>
-            <h4  style={{ marginTop: "-1rem" }}>~ Naval Ravikant</h4>
+            
           </div>
         </Grid>
         <Grid
@@ -50,7 +50,7 @@ maintain your streak for accountability.”
             src="Group 8.png"
             alt="group7"
             style={{
-              maxHeight: "450px",
+            //   maxHeight: "500px",
               maxWidth: "400px",
               alignContent: "center",
               width: "100%",

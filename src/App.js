@@ -10,8 +10,8 @@ import ProgressComponent from "./Components/ProgressComponent";
 
 const AppStoreComponent = () => {
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <Grid container spacing={1}>
+    <Box sx={{ flexGrow: 1, marginTop:'4rem'}} >
+      <Grid container spacing={2}>
         <Grid
           item
           xs={12}
@@ -19,21 +19,21 @@ const AppStoreComponent = () => {
           style={{
             display: "flex",
             flexDirection: "column",
-            justifyContent: "space-evenly",
+            justifyContent: "center",
             alignItems: "center",
           }}
         >
           <img
             src="Logo_WBorderfolksableIcon.png"
             alt="icon"
-            style={{ width: "156px", height: "169px" }}
+            style={{ maxWidth: "100px" }}
           ></img>
           <h2>the modern struggle.</h2>
           <p style={{ alignContent: "center", textAlign:'center', }}>
             “All of humanity's problems stem from man's inability to sit quietly
             in a room alone.”
           </p>
-          <h4 style={{ marginTop: "-1rem",marginBottom:'3rem' }}> ~ Blaise Pascal, Pensées</h4>
+          <h4 style={{ marginBottom:'3rem', fontSize:'14px' }}> ~ <span style={{textDecoration:'underline'}}>Blaise Pascal, Pensées</span></h4>
           <div style={{ display: "flex" }}>
             <div
               style={{
@@ -42,19 +42,28 @@ const AppStoreComponent = () => {
                 alignItems: "center",
                 gap: "20px",
                 justifyContent: "center",
-                marginTop:'3rem'
+                marginBottom:'3rem'
               }}
             >
-              <img
+             <a
+              href='https://apps.apple.com/in/app/folksable-photo-habit-tracker/id6473078578'
+              target="_blank"
+              rel="noreferrer"
+             > <img
                 src="Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917 1appstore.png"
                 alt="appstore"
-                style={{ width: "200px", height: "68px" }}
-              ></img>
-              <img
+                style={{  height: "68px", width:'250px',objectFit:'contain'}}
+              ></img></a>
+              <a
+               href='https://play.google.com/store/apps/details?id=com.folksable.app'
+               target="_blank"
+               rel="noreferrer"
+              ><img
                 src="google-play-badge 1.png"
                 alt="playstore"
-                style={{ width: "230px", height: "68px" }}
+                style={{  height: "68px", width:'250px',objectFit:'contain' }}
               ></img>
+              </a>
             </div>
           </div>
         </Grid>
@@ -67,13 +76,14 @@ const AppStoreComponent = () => {
             justifyContent: "center",
             alignItems: "center",
             alignContent: "center",
+            
           }}
         >
           <img
             src="Frame 275.png"
             alt="card"
             style={{
-              maxHeight: "500px",
+              // maxHeight: "500px",
               maxWidth: "500px",
               alignContent: "center",
               width: "100%",
@@ -87,7 +97,7 @@ const AppStoreComponent = () => {
 
 function App() {
   return (
-    <div>
+    <div className="folksable">
     <AppStoreComponent/>
     <FocusComponent/>
     <GoalComponent/>
