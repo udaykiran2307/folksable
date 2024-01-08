@@ -4,6 +4,7 @@ import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import FocusComponent from "./Components/FocusComponent";
 import GoalComponent from "./Components/GoalComponent";
+import ScheduleComponent from "./Components/ScheduleComponent";
 const AppStoreComponent = () => {
   return (
     <Box sx={{ flexGrow: 1 }}>
@@ -86,6 +87,7 @@ function App() {
     <AppStoreComponent/>
     <FocusComponent/>
     <GoalComponent/>
+    <ScheduleComponent/>
     </div>
   );
 }

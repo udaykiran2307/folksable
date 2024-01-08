@@ -1,12 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Box, Grid } from "@mui/material";
 import "../App.css"
 const GoalComponent = () => {
-    const [screenWidth,setScreenWidth]=useState('');
-    useEffect(()=>{
-     setScreenWidth(window.innerWidth);
-     console.log("screen width", screenWidth);
-    },[])
+  
   return (
     <Box sx={{ flexGrow: 1, marginTop: "3rem" }}>
       <Grid container spacing={1} className='goalCompi'>
