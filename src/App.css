@@ -4,6 +4,12 @@ body{
   font-family: 'Poppins', sans-serif
 }
 
-.someclass{
+@media screen and (max-width:801px) {
+  .goalCompi{
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    justify-content: center !important;
+    align-items: center !important;
   
+  }
 }
