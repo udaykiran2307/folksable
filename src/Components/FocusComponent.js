@@ -49,7 +49,7 @@ const FocusComponent = () => {
             src="Group 7.png"
             alt="group7"
             style={{
-              maxHeight: "400px",
+              maxHeight: "450px",
               maxWidth: "400px",
               alignContent: "center",
               width: "100%",

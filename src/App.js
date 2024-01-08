@@ -29,11 +29,11 @@ const AppStoreComponent = () => {
             style={{ width: "156px", height: "169px" }}
           ></img>
           <h2>the modern struggle.</h2>
-          <p style={{ alignContent: "center" }}>
+          <p style={{ alignContent: "center", textAlign:'center', }}>
             “All of humanity's problems stem from man's inability to sit quietly
             in a room alone.”
           </p>
-          <h4 style={{ marginTop: "-1rem" }}> ~ Blaise Pascal, Pensées</h4>
+          <h4 style={{ marginTop: "-1rem",marginBottom:'3rem' }}> ~ Blaise Pascal, Pensées</h4>
           <div style={{ display: "flex" }}>
             <div
               style={{
@@ -42,6 +42,7 @@ const AppStoreComponent = () => {
                 alignItems: "center",
                 gap: "20px",
                 justifyContent: "center",
+                marginTop:'3rem'
               }}
             >
               <img
