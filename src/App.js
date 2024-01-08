@@ -5,7 +5,9 @@ import Box from "@mui/material/Box";
 import FocusComponent from "./Components/FocusComponent";
 import GoalComponent from "./Components/GoalComponent";
 import ScheduleComponent from "./Components/ScheduleComponent";
-import ShareComponent from "./Components/ShareComponent"
+import ShareComponent from "./Components/ShareComponent";
+import ProgressComponent from "./Components/ProgressComponent";
+
 const AppStoreComponent = () => {
   return (
     <Box sx={{ flexGrow: 1 }}>
@@ -90,6 +92,7 @@ function App() {
     <GoalComponent/>
     <ScheduleComponent/>
     <ShareComponent/>
+    <ProgressComponent/>
     </div>
   );
 }
